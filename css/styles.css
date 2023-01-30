@@ -82,4 +82,18 @@ body{
     left: 300px;
     background: var(--white2);
     border-bottom: 1px solid rgba(0,0,0,.05);
+    height: 60px; padding: 0 40px; display: flex; justify-content: space-between;
+    align-items: center; z-index: 10000;
+}
+
+.main .topbar .logo{
+    color: var(--black);
+    font-weight: 700;
+    text-decoration: none; font-size: 1.4em; text-transform: uppercase; 
+    letter-spacing: 1px;
+}
+
+.main .topbar .toggle{
+    position: relative; width: 60px; height: 60px; font-size: 24px; color: var(--black);
+    cursor: pointer; display: flex; justify-content: center; align-items: center;
 }
