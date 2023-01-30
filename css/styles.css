@@ -32,7 +32,7 @@ body{
     justify-content: center;
     align-items: center;
     overflow: hidden;
-    transition: width 0.5s;
+    transition: width 0.5s, left 0.5s;
 }
 
 .navigation.active{
@@ -80,6 +80,11 @@ body{
     min-height: 100vh;
 }
 
+.main.active{
+    width: calc(100% - 0px);
+    left: 0px;
+}
+
 .main .topbar{
     position: fixed;
     top: 0;
@@ -91,6 +96,10 @@ body{
     align-items: center; z-index: 10000;
 }
 
+.main .topbar.active{
+    width: calc(100% - 0px);
+    left: 0px;
+}
 .main .topbar .logo{
     color: var(--black);
     font-weight: 700;
