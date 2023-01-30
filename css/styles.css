@@ -32,6 +32,11 @@ body{
     justify-content: center;
     align-items: center;
     overflow: hidden;
+    transition: width 0.5s;
+}
+
+.navigation.active{
+    width: 0;
 }
 
 .navigation ul{
