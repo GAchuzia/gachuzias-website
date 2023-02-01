@@ -126,9 +126,42 @@ section{
     padding: 0 20px;
 }
 
-.banner .container{
+.banner .content{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+h3{
+    position: relative;
+    font-size: 1.4em;
+    color: var(--black);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+p{
+    color: #777;
+}
+
+.btn{
+    position: relative;
+    display: inline-block;
+    padding: 10px 30px;
+    background: var(--black);
+    color: #fff;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    text-decoration: none;
+
+}
+
+.btn:hover{
+    color: rgb(217, 61, 61);
+}
+
+.socialMedia{
+    display: inline-block;
 }
