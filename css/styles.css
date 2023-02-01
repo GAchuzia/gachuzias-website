@@ -163,5 +163,31 @@ p{
 }
 
 .socialMedia{
+    position:absolute;
+    bottom: 20px;
+    display: flex;
+}
+
+.socialMedia li{
+    list-style: none;
+}
+
+.socialMedia li a{
     display: inline-block;
+    width: 40px;
+    height: 40px;
+    background: rgba(0,0,0,.05);
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: var(--black);
+    font-size: 1.2em;
+    border-radius: 10%;
+}
+
+.socialMedia li a:hover{
+    background: var(--black2);
+    opacity: .9;
 }
