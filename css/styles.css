@@ -203,6 +203,10 @@ p{
 .title{
     width: 100%;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .title h2{
@@ -219,4 +223,43 @@ p{
     width: 50px;
     height: 1px;
     background: var(--black);
+}
+
+.about .content .textbox{
+    width: 49%;
+    min-width: 49%;
+}
+
+.projects .content{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: .5em; row-gap: .5em;
+    margin: 40px 0;
+}
+
+.projects .content .projectBox{
+    border: 1px solid rgba(0,0,0,.05);
+    padding: 50px 20px;
+    display: flex;
+    background: var(--white2);
+    justify-content: center; align-items: center;
+    flex-direction: column;
+}
+
+.projects .content .projectBox img{
+    max-width: 50px;
+}
+
+.projects .content .projectBox h2{
+    font-size: 1.1em;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    color: var(--black);
+    text-align: center;
+    letter-spacing: 2px; text-transform: uppercase;
+}
+
+.projects .content .projectBox p{
+    text-align: center;
 }
