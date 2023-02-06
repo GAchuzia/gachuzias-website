@@ -225,10 +225,10 @@ p{
     background: var(--black);
 }
 
-.about .content .textbox{
+/*.about .content .textBox{ Space for an image if need be
     width: 49%;
     min-width: 49%;
-}
+}*/ 
 
 .projects .content{
     display: grid;
@@ -238,28 +238,37 @@ p{
 }
 
 .projects .content .projectBox{
-    border: 1px solid rgba(0,0,0,.05);
-    padding: 50px 20px;
-    display: flex;
-    background: var(--white2);
-    justify-content: center; align-items: center;
-    flex-direction: column;
+    position: relative;
+    width: 100%; height: 300px;
+    overflow: hidden;
 }
 
-.projects .content .projectBox img{
-    max-width: 50px;
+.projects .content .projectBox .imgBox{
+    position: relative;
+    width: 100%;
+    height:100%;
+    transform: translateY(0);
+    transition: 0.5s ease-in-out;
+}
+.projects .content .projectBox:hover .imgBox{
+    transform: translateY(-100%);
 }
 
-.projects .content .projectBox h2{
-    font-size: 1.1em;
-    margin-top: 20px;
-    margin-bottom: 10px;
-    font-weight: 600;
-    color: var(--black);
-    text-align: center;
-    letter-spacing: 2px; text-transform: uppercase;
+.projects .content .projectBox .imgBox img{
+    position: absolute; top: 0; left: 0; width: 100%; height: 100%;
+    object-fit: cover;
 }
 
-.projects .content .projectBox p{
-    text-align: center;
+.projects .content .projectBox .textBox{
+    position: absolute; top: 0; left: 0; width: 100%; height: 100%;
+    transform: translateY(100%);
+    transition: 0.5s ease-in-out;
+    background: var(--black); display: flex; justify-content: center; align-items: center;
+}
+
+.projects .content .projectBox:hover .textBox{
+    transform: translateY(0);
+}
+.projects .content .projectBox .textBox h4{
+    color: #fff; font-size: 1em;
 }
