@@ -4,6 +4,7 @@
     padding: 0 ;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif ;
+    scroll-behavior: smooth;
 }
 
 :root{
@@ -271,4 +272,43 @@ p{
 }
 .projects .content .projectBox .textBox h4{
     color: #fff; font-size: 1em;
+}
+
+.contact{
+    display: flex; justify-content: flex-start; align-items: center; 
+    flex-direction: column;
+}
+
+.contact .contactForm{
+    position: relative; width: 100%; max-width: 700px;
+    margin-top: 20px;
+}
+
+.contact .contactForm .row{
+    width: 100%; display: grid; 
+    grid-template-columns: repeat(2, 1fr); 
+    column-gap: .5em; row-gap: .5em;
+    margin-top: 20px;
+}
+
+.contact .contactForm .row input, .contact .contactForm .row2 textarea{
+    width: 100%; padding: 10px; border: none; outline: none;
+    color: var(--black); background: (--white2); font-size: 16px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+
+}
+.contact .contactForm .row2{
+    display:flex; justify-content: center; width:100%;
+    margin-top: 20px; align-items: center;
+}
+
+.contact .contactForm .row2 textarea{
+    resize: none; height: 200px;
+}
+
+.contact .contactForm .row2 input[type="submit"]{
+    background: var(--black); color:#fff;
+    padding: 10px 30px; font-weight: 500; letter-spacing: 2px;
+    cursor: pointer; font-size: 16px; text-transform: uppercase;
+    max-width: 150px; border: none;
 }
