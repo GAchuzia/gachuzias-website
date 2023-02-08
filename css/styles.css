@@ -110,6 +110,10 @@ body{
     letter-spacing: 1px;
 }
 
+.main .topbar img{
+    float: right;
+    width: 30px; height: 30px;
+}
 .main .topbar .toggle{
     position: relative; width: 60px; height: 60px; font-size: 24px; color: var(--black);
     cursor: pointer; display: flex; justify-content: center; align-items: center;
@@ -299,7 +303,7 @@ p{
 }
 .contact .contactForm .row2{
     display:flex; justify-content: center; width:100%;
-    margin-top: 20px; align-items: center;
+    margin-top: 10px; align-items: center;
 }
 
 .contact .contactForm .row2 textarea{
@@ -310,5 +314,5 @@ p{
     background: var(--black); color:#fff;
     padding: 10px 30px; font-weight: 500; letter-spacing: 2px;
     cursor: pointer; font-size: 16px; text-transform: uppercase;
-    max-width: 150px; border: none; margin-bottom: 20px;
+    max-width: 150px; border: none; margin-bottom: 10px;
 }
