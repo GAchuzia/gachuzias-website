@@ -114,11 +114,12 @@ body{
     float: right;
     width: 30px; height: 30px;
 }
+/*
 .main .topbar .toggle{
     position: relative; width: 60px; height: 60px; font-size: 24px; color: var(--black);
     cursor: pointer; display: flex; justify-content: center; align-items: center;
 }
-
+*/
 section{
     position: relative;
     min-height: 100vh;
@@ -239,7 +240,7 @@ p{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     column-gap: .5em; row-gap: .5em;
-    margin: 40px 0;
+    margin: 40px 0; 
 }
 
 .projects .content .projectBox{
@@ -274,6 +275,7 @@ p{
 .projects .content .projectBox:hover .textBox{
     transform: translateY(0);
 }
+
 .projects .content .projectBox .textBox h4{
     color: #fff; font-size: 1em;
 }
@@ -285,7 +287,7 @@ p{
 
 .contact .contactForm{
     position: relative; width: 100%; max-width: 700px;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 .contact .contactForm .row{
