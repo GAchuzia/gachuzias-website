@@ -158,63 +158,51 @@ h3{
 }
 
 .first_name .c1:hover{
-    color:#FF0000 ;
-    cursor: pointer;
+    color: rgb(217, 61, 61);
 }
 
 .first_name .c2:hover{
-    color:#4CBB17 ;
-    cursor: pointer;
+    color: rgb(217, 61, 61);
 }
 
 .first_name .c3:hover{
-    color:#00BFFF;
-    cursor: pointer;
+    color: rgb(217, 61, 61);
 }
 
 .first_name .c4:hover{
-    color:#BF00FF;
-    cursor: pointer;
+    color: rgb(217, 61, 61);
 }
 
 .first_name .c5:hover{
-    color:#008080;
-    cursor: pointer;
+    color: rgb(217, 61, 61);
 }
 
-.first_name .c6:hover{
-    color:#FF00FF;
-    cursor: pointer;
+.last_name .c6:hover{
+    color: rgb(217, 61, 61);
 }
 
-.first_name .c7:hover{
-    color:#008080;
-    cursor: pointer;
+.last_name .c7:hover{
+    color: rgb(217, 61, 61);
 }
 
-.first_name .c8:hover{
-    color:#8d1c1c;
-    cursor: pointer;
+.last_name .c8:hover{
+    color: rgb(217, 61, 61);
 }
 
-.first_name .c9:hover{
-    color:#1e40e7;
-    cursor: pointer;
+.last_name .c9:hover{
+    color: rgb(217, 61, 61);
 }
 
-.first_name .c10:hover{
-    color:#86df12;
-    cursor: pointer;
+.last_name .c10:hover{
+    color: rgb(217, 61, 61);
 }
 
-.first_name .c11:hover{
-    color:#c128a0;
-    cursor: pointer;
+.last_name .c11:hover{
+    color: rgb(217, 61, 61);
 }
 
-.first_name .c12:hover{
-    color:#f1c30d;
-    cursor: pointer;
+.last_name .c12:hover{
+    color: rgb(217, 61, 61);
 }
 p{
     color: #777;
@@ -325,6 +313,10 @@ p{
     transform: translateY(0);
     transition: 0.5s ease-in-out;
 }
+.project .content .projectBox .title h4{
+    align-items: center; justify-self:center;
+    
+}
 .projects .content .projectBox:hover .imgBox{
     transform: translateY(-100%);
 }
@@ -347,6 +339,11 @@ p{
 
 .projects .content .projectBox .textBox h4{
     color: #fff; font-size: 1em;
+}
+
+.projects .content .projectBox .textBox h4:hover{
+    color: rgb(217, 61, 61);
+    cursor: pointer;
 }
 
 .contact{
