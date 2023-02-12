@@ -314,9 +314,22 @@ p{
     transition: 0.5s ease-in-out;
 }
 .project .content .projectBox .title h4{
-    align-items: center; justify-self:center;
-    
+    align-items: center; justify-self:center;   
 }
+
+ .title1 a  {
+     text-decoration: none; color: var(--black);
+    text-align: center; margin-top: -30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+}
+
+.title1 h4:hover{
+    color: rgb(217, 61, 61);
+}
+
 .projects .content .projectBox:hover .imgBox{
     transform: translateY(-100%);
 }
