@@ -147,6 +147,75 @@ h3{
     text-transform: uppercase;
 }
 
+.first_name{
+    display: flex;  
+    letter-spacing: -1px;
+}
+
+.last_name{
+    text-indent: 10px;   
+    letter-spacing: -1px;
+}
+
+.first_name .c1:hover{
+    color:#FF0000 ;
+    cursor: pointer;
+}
+
+.first_name .c2:hover{
+    color:#4CBB17 ;
+    cursor: pointer;
+}
+
+.first_name .c3:hover{
+    color:#00BFFF;
+    cursor: pointer;
+}
+
+.first_name .c4:hover{
+    color:#BF00FF;
+    cursor: pointer;
+}
+
+.first_name .c5:hover{
+    color:#008080;
+    cursor: pointer;
+}
+
+.first_name .c6:hover{
+    color:#FF00FF;
+    cursor: pointer;
+}
+
+.first_name .c7:hover{
+    color:#008080;
+    cursor: pointer;
+}
+
+.first_name .c8:hover{
+    color:#8d1c1c;
+    cursor: pointer;
+}
+
+.first_name .c9:hover{
+    color:#1e40e7;
+    cursor: pointer;
+}
+
+.first_name .c10:hover{
+    color:#86df12;
+    cursor: pointer;
+}
+
+.first_name .c11:hover{
+    color:#c128a0;
+    cursor: pointer;
+}
+
+.first_name .c12:hover{
+    color:#f1c30d;
+    cursor: pointer;
+}
 p{
     color: #777;
 }
@@ -294,7 +363,7 @@ p{
     width: 100%; display: grid; 
     grid-template-columns: repeat(2, 1fr); 
     column-gap: .5em; row-gap: .5em;
-    margin-top: 20px;
+    margin-top: 17px;
 }
 
 .contact .contactForm .row input, .contact .contactForm .row2 textarea{
@@ -317,4 +386,8 @@ p{
     padding: 10px 30px; font-weight: 500; letter-spacing: 2px;
     cursor: pointer; font-size: 16px; text-transform: uppercase;
     max-width: 150px; border: none; margin-bottom: 10px;
+}
+
+.contact .contactForm .row2 input:hover{
+    color: rgb(217, 61, 61);
 }
