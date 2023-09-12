@@ -10,13 +10,14 @@ body {
     margin: 0 auto;
 }
 
+.logo-container {
+    text-align: center;
+}
 
 .logo {
     color: #7e7c7c;
-    text-align: center;
-    font-size: 150%;
+    font-size: 170%;
     text-decoration: none;
-   
 }
 
 .logo:hover {
@@ -24,7 +25,8 @@ body {
 }
 
 nav {
-    float: left;
+    text-align: center;
+    margin-right: 10%;
 }
 
 nav ul {
@@ -35,18 +37,17 @@ nav ul {
 nav li {
     
     display: inline-block;
-    margin-left: 70px;
-    padding-top: 15px;
+    text-align: center;
+    margin-left: 40px;
 }
 
 nav ul li a {
-    text-align: center;
-    color: #5c5a5a;
+    color: #a7a6a6;
     font-size: 120%;
     text-decoration:  none;
     text-transform: uppercase;
 }
 
 nav ul li a:hover {
-    color:aliceblue
+    color:azure;
 }
