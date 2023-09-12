@@ -10,41 +10,39 @@ body {
     margin: 0 auto;
 }
 
-header {
-    background: #5f718b
-}
-
-header::after {
-    content: '';
-    display: table;
-    clear: both; 
-}
 
 .logo {
-    float: left;
-    font-size: 130%;
+    color: #7e7c7c;
+    text-align: center;
+    font-size: 150%;
+    text-decoration: none;
    
 }
 
+.logo:hover {
+    color: azure;
+}
+
 nav {
-    float: right;
+    float: left;
 }
 
 nav ul {
-    margin: 0;
-    padding: 0;
+    
     list-style: none;
 }
 
 nav li {
+    
     display: inline-block;
     margin-left: 70px;
     padding-top: 15px;
 }
 
 nav ul li a {
-    color: #444;
-    font-size: 130%;
+    text-align: center;
+    color: #5c5a5a;
+    font-size: 120%;
     text-decoration:  none;
     text-transform: uppercase;
 }
