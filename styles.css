@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background: #222;
+    background: #F5F5F7;
     font-family: monospace;
     font-weight: 350;
 }
@@ -10,7 +10,7 @@ body {
 }
 
 header {
-    background-color: #3f3f3f;
+    background-color: #2C3147;
 }
 
 header::after{
@@ -40,7 +40,7 @@ nav li {
 }
 
 nav ul li a {
-    color: #f9f9f9;
+    color: #F5F5F7;
     font-size: 170%;
     text-decoration:  none;
     text-transform: uppercase;
@@ -49,23 +49,43 @@ nav ul li a {
 nav ul li a:hover {
     color:#b3b3b3;
 }
+
+.home-section {
+    text-align: center;
+}
+
+#text2{
+    font-size: 30px;
+    margin-top: 1px;
+    margin-bottom: auto;
+}
+
+#text3{
+    font-size: 10px;
+}
+
+hr{
+    width:30%;
+    height:2px;
+    background-color: #2C3147;
+}
 .projects-section{
-    background-color: #6c6c6c;
+    background-color: #68B5EA;
 }
 .projects-section h2{
-    color:#f9f9f9 ;
+    color:#F5F5F7
 }
 
 .about-section{
-    background-color: #898989;
+    background-color: #595DD2;
 }
 .about-section h2{
-    color:#f9f9f9 ;
+    color:#F5F5F7 ;
 }
 
 .contact-section{
-    background-color: #a0a0a0;
+    background-color: #8A88AF;
 }
 .contact-section h2{
-    color:#f9f9f9 ;
+    color:#F5F5F7 ;
 }
