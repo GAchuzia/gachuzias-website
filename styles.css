@@ -69,6 +69,9 @@ nav ul li a:hover {
     font-size: 10px;
 }
 
+.input {
+    color:rgb(41, 173, 129)
+}
 hr{
     width:30%;
     height:2px;
