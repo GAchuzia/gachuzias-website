@@ -116,14 +116,15 @@ hr{
     background-color: #68B5EA;
 }
 .projects-section h2{
-    color:#F5F5F7
+    color:#F5F5F7;
+    margin-left: 10px;
 }
 
 .about-section{
     background-color: #595DD2;
 }
 .about-section h2{
-    color:#F5F5F7 ;
+    color:#F5F5F7;
 }
 
 .contact-section{
