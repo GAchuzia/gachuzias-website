@@ -72,6 +72,7 @@ nav ul li a:hover {
 .input {
     color:rgb(41, 173, 129)
 }
+
 hr{
     width:30%;
     height:2px;
@@ -125,6 +126,11 @@ hr{
     margin-left: 10px;
 }
 
+#aboutme-paragraph-div p{
+    margin-left: 10px;
+    padding-right: 65%;
+    font-size: large;
+}
 .about-section{
     background-color: #595DD2;
 }
