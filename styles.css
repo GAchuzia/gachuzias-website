@@ -133,17 +133,25 @@ hr{
     color: #2C3147;
 }
 
-#aboutme-paragraph-div {
-    text-align: center;
-}
-
-#aboutme-paragraph-div p {
+.projects p{
     font-size: 18px;
     padding: 2em; /* Increase the padding to make it more square */
     width: 50%; /* Adjust the width to make it more square */
     margin: 0 auto; /* Center the paragraph horizontally */
     background-color: #f0f0f0; /* Add a background color for emphasis */
     border: 1px solid #ddd; /* Add a border for further separation */
+}
+#aboutme-paragraph-div {
+    text-align: center;
+}
+
+#aboutme-paragraph-div p {
+    font-size: 18px;
+    padding: 2em; 
+    width: 50%; 
+    margin: 0 auto; 
+    background-color: #f0f0f0;
+    border: 1px solid #ddd; 
 }
 
 #aboutme-paragraph-div h2 {
