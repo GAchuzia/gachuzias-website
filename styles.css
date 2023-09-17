@@ -3,6 +3,7 @@ body {
     background: #F5F5F7;
     font-family: monospace;
     font-weight: 350;
+    overflow: hidden;
 }
 
 .container {
@@ -141,26 +142,13 @@ hr{
     margin-left: 10px;
 }
 
-.contact-section{
-    background-color: #8A88AF;
-    text-align: center;
-    padding: 3%;
+#contact-elements img{
+    padding-top: 90px;
+    padding-left: 10px;
 }
 
-.contact-section img{
-    margin-bottom: 20px;
-    padding: 3%;
-}
-
-.contact-section img:hover{
+#contact-elements img:hover{
     opacity: 0.5;
     transform: scale(1.1); 
-}
-
-.contact-section h2{
-    color:#F5F5F7 ;
-    text-align: left; 
-    margin-left: 10px;
-    
 }
 
