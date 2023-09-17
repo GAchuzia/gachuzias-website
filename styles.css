@@ -3,6 +3,10 @@ body {
     background: #F5F5F7;
     font-family: monospace;
     font-weight: 350;
+
+}
+
+#home-body{
     overflow: hidden;
 }
 
@@ -141,19 +145,4 @@ hr{
     
 }
 
-#contact-elements {
-    color: #2C3147;
-    margin-bottom: 40px;
-    text-align: center;
-}
-
-#contact-elements img:hover{
-    opacity: 0.5;
-    transform: scale(1.2);
-    color: #b3b3b3; 
-}
-
-#contact-elements img{
-    width: 90px;
-}
 
