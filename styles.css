@@ -139,12 +139,13 @@ hr{
 }
 
 #aboutme-paragraph-div p {
-    font-size: 18px;
-    padding: 2em; 
+    font-size: 15px;
+    padding: 4em; 
     width: 50%; 
     margin: 0 auto; 
     background-color: #f0f0f0;
     border: 1px solid #ddd; 
+    box-shadow: 2px 2px 2px  rgb(68, 67, 67);
 }
 
 #aboutme-paragraph-div h2 {
