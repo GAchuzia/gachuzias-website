@@ -133,14 +133,7 @@ hr{
     color: #2C3147;
 }
 
-.projects p{
-    font-size: 18px;
-    padding: 2em; /* Increase the padding to make it more square */
-    width: 50%; /* Adjust the width to make it more square */
-    margin: 0 auto; /* Center the paragraph horizontally */
-    background-color: #f0f0f0; /* Add a background color for emphasis */
-    border: 1px solid #ddd; /* Add a border for further separation */
-}
+
 #aboutme-paragraph-div {
     text-align: center;
 }
@@ -159,6 +152,41 @@ hr{
     margin-left: 30px;
 }
 
-.currently-section{
+.projects-title{
     text-align: center;
+}
+.projects{
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center; 
+}
+.card {
+    font-size: 18px;
+    box-shadow: 2px 2px 2px rgb(68, 67, 67);
+    width: calc(50% - 20px); /* Set card width to 50% minus margin */
+    width: 10em; 
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    opacity: .8;
+}
+
+.card:hover{
+    opacity: 1;
+    color:#2C3147;
+}
+
+.card a{
+    color:black;
+    text-decoration: none;
+}
+
+.card p{
+    font-size: 10px;
+    text-align: center;
+}
+
+.card .proj-desc{
+    font-size: 8px;
 }
