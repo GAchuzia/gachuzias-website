@@ -58,6 +58,7 @@ nav ul li a:hover {
 .home-section {
     text-align: center;
     padding-top: 12%;
+    color:#2C3147;
 }
 
 #text1{
@@ -146,6 +147,7 @@ hr{
     background-color: #f0f0f0;
     border: 1px solid #ddd; 
     box-shadow: 2px 2px 2px  rgb(68, 67, 67);
+    color:#2C3147;
 }
 
 #aboutme-paragraph-div h2 {
@@ -164,7 +166,7 @@ hr{
 }
 .card {
     font-size: 23px;
-    box-shadow: 2px 2px 2px 2px rgb(68, 67, 67);
+    box-shadow: 2px 2px 2px 2px #2C3147;
     width: calc(50% - 20px); /* Set card width to 50% minus margin */
     width: 12em;
     height: 9em; 
@@ -178,6 +180,7 @@ hr{
     align-items: center;
     text-align: center;
     border-radius: 1%;
+    color:#2C3147;
 }
 .card:hover{
     opacity: 1;
