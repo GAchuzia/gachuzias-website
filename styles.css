@@ -163,7 +163,7 @@ hr{
 }
 .card {
     font-size: 18px;
-    box-shadow: 2px 2px 2px rgb(68, 67, 67);
+    box-shadow: 2px 2px 2px 2px rgb(68, 67, 67);
     width: calc(50% - 20px); /* Set card width to 50% minus margin */
     width: 10em; 
     background-color: #f0f0f0;
