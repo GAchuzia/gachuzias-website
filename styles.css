@@ -137,17 +137,22 @@ hr{
 
 #aboutme-paragraph-div {
     text-align: center;
+    border-radius: 3%;
 }
 
 #aboutme-paragraph-div p {
     font-size: 15px;
     padding: 4em; 
-    width: 50%; 
+    width: calc(50% - 20px);
+    width: 32em;
+    height: 9em;
     margin: 0 auto; 
     background-color: #f0f0f0;
-    border: 1px solid #ddd; 
-    box-shadow: 2px 2px 2px  rgb(68, 67, 67);
+    border: 3px solid #2C3147;
+    box-shadow: 2px 2px #2C3147;
     color:#2C3147;
+    border-radius: 3%;
+    opacity: .8;
 }
 
 #aboutme-paragraph-div h2 {
@@ -166,12 +171,12 @@ hr{
 }
 .card {
     font-size: 23px;
-    box-shadow: 2px 2px 2px 2px #2C3147;
+    box-shadow: 2px 2px   #2C3147;
     width: calc(50% - 20px); /* Set card width to 50% minus margin */
     width: 12em;
     height: 9em; 
     background-color: #f0f0f0;
-    border: 1px solid #ddd;
+    border: 3px solid #2C3147;
     margin-right: 20px;
     margin-bottom: 20px;
     opacity: .8;
@@ -179,7 +184,7 @@ hr{
     justify-content: center;
     align-items: center;
     text-align: center;
-    border-radius: 1%;
+    border-radius: 3%;
     color:#2C3147;
 }
 .card:hover{
