@@ -172,7 +172,6 @@ hr{
     margin-bottom: 20px;
     opacity: .8;
 }
-
 .card:hover{
     opacity: 1;
     color:#2C3147;
@@ -190,4 +189,15 @@ hr{
 
 .card .proj-desc{
     font-size: 8px;
+}
+
+.card ul {
+    list-style-type: none;
+    justify-content: center;
+    
+}
+
+.proj-tech{
+    width: 15px;
+    height: 25px;
 }
