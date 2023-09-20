@@ -185,6 +185,7 @@ hr{
 .card:hover{
     opacity: 1;
     color:#2C3147;
+    transform: scale(1.05);
 }
 
 .card a{
