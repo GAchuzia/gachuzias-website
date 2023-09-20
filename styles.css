@@ -162,15 +162,21 @@ hr{
     justify-content: center; 
 }
 .card {
-    font-size: 18px;
+    font-size: 23px;
     box-shadow: 2px 2px 2px 2px rgb(68, 67, 67);
     width: calc(50% - 20px); /* Set card width to 50% minus margin */
-    width: 10em; 
+    width: 12em;
+    height: 9em; 
     background-color: #f0f0f0;
     border: 1px solid #ddd;
     margin-right: 20px;
     margin-bottom: 20px;
     opacity: .8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 1%;
 }
 .card:hover{
     opacity: 1;
@@ -180,15 +186,16 @@ hr{
 .card a{
     color:black;
     text-decoration: none;
+    justify-content: center;
 }
 
 .card p{
-    font-size: 10px;
+    font-size: 15px;
     text-align: center;
 }
 
 .card .proj-desc{
-    font-size: 8px;
+    font-size: 10px;
 }
 
 .card ul {
