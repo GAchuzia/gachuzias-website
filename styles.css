@@ -172,7 +172,7 @@ hr{
 .card {
     font-size: 23px;
     box-shadow: 2px 2px   #2C3147;
-    width: calc(50% - 20px); /* Set card width to 50% minus margin */
+    width: calc(50% - 20px);
     width: 12em;
     height: 9em; 
     background-color: #f0f0f0;
@@ -219,3 +219,21 @@ hr{
     height: 23px;
 }
 
+.my-contacts {
+    position: fixed;
+    bottom: 20px;
+    right: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  
+  .my-contacts a {
+    margin: -20px 0;
+  }
+  
+  .my-contacts img {
+    color:#2C3147;
+    width: 70px; 
+    height: 70px; 
+  }
