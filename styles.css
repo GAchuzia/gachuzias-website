@@ -221,3 +221,22 @@ hr{
     width: 23px;
     height: 23px;
 }
+
+.contact-container{
+    display: flex;
+    flex-direction: row;
+    justify-content:center ;
+    margin-top: -20px;
+}
+
+.contact-container img{
+ 
+    height: 100px;
+}
+
+.contact-container img:hover{
+    opacity: 1;
+    color:#2C3147;
+    transform: scale(1.4);
+    cursor: pointer;
+}
