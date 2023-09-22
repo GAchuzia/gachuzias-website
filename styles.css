@@ -174,10 +174,10 @@ hr{
     box-shadow: 2px 2px   #2C3147;
     width: calc(50% - 20px);
     width: 12em;
-    height: 9em; 
+    height: 6em; 
     background-color: #f0f0f0;
     border: 3px solid #2C3147;
-    margin-right: 40px;
+    margin-right: 20px;
     margin-bottom: 20px;
     opacity: .8;
     display: flex;
@@ -218,22 +218,3 @@ hr{
     width: 23px;
     height: 23px;
 }
-
-.my-contacts {
-    position: fixed;
-    bottom: 20px;
-    right: 10px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-  }
-  
-  .my-contacts a {
-    margin: -20px 0;
-  }
-  
-  .my-contacts img {
-    color:#2C3147;
-    width: 70px; 
-    height: 70px; 
-  }
