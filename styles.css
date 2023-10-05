@@ -135,29 +135,29 @@ hr{
 }
 
 
-#aboutme-paragraph-div {
-    text-align: center;
-    border-radius: 3%;
+.aboutme-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh; /* Use min-height to ensure it takes up at least the full viewport height */
+    position: relative;
 }
 
-#aboutme-paragraph-div p {
+.aboutme2 {
     font-size: 15px;
-    padding: 4em; 
-    width: calc(50% - 20px);
     width: 32em;
     height: 9em;
-    margin: 0 auto; 
     background-color: #f0f0f0;
     border: 3px solid #2C3147;
     box-shadow: 2px 2px #2C3147;
     color:#2C3147;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     border-radius: 3%;
-    opacity: .8;
-}
-
-#aboutme-paragraph-div h2 {
-    color: #2C3147;
-    margin-left: 30px;
+    padding: 5%; 
 }
 
 .projects-title{
@@ -181,7 +181,6 @@ hr{
     border: 3px solid #2C3147;
     margin-right: 20px;
     margin-bottom: 20px;
-    
     opacity: .8;
     display: flex;
     justify-content: center;
