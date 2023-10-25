@@ -119,6 +119,9 @@ hr{
     color: #b3b3b3;
 }
 
+.empty-space{
+    padding-bottom: 11em;
+}
 .resume-button:hover span:after {
     opacity: 1;
     right: 0;
