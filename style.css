@@ -24,7 +24,7 @@
 .navbar ul li {
   list-style: none;
   display: inline-block;
-  margin-top: 7%;
+  margin-top: 5%;
 }
 
 .navbar ul li a {
@@ -42,9 +42,14 @@ hr {
   margin: -1em auto;
 }
 
-.content-box p {
+.content-box  {
+  max-width: 40em;
+  margin: 2em auto;
   font-size: 1.2em;
-  text-align: center;
+}
+
+.content-box ul{
+    list-style: none;
 }
 
 .footer {
@@ -64,4 +69,9 @@ hr {
 
 .footer ul li a:hover {
   color: grey;
+}
+
+.resume-link:hover{
+    color:bisque;
+    cursor: pointer;
 }
