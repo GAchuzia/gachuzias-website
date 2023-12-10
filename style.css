@@ -1,0 +1,52 @@
+* {
+    background-color: #212324;
+    color: #fff;
+    font-family: monospace;
+}
+
+.navbar{
+    text-align: center;
+}
+
+.navbar ul li {
+    list-style: none;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+}
+
+.navbar ul li a:hover{
+    color: grey;
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+    text-align: center;
+}
+
+.footer ul li {
+    list-style: none;
+}
+
+.footer ul li a{
+    text-decoration: none;
+}
+
+.footer ul li a:hover{
+    color: grey;
+    text-decoration: underline;
+}
+
+
+
