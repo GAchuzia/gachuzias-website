@@ -1,61 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>GAchuzia</title>
-    <link rel="stylesheet" type="text/css" href="styles.css?version=1.0" />
-  </head>
-  <body id="home-body">
-    <header>
-      <div class="container">
-        <nav>
-          <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="projects.html">Projects</a></li>
-            <li><a href="about.html">About</a></li>
-          </ul>
-        </nav>
-      </div>
-    </header>
-    <div class="home-section">
-      <p id="text1">Hey there 👋, I'm</p>
-      <h3 id="text2">Grant Achuzia</h3>
-      <hr />
-      <p id="text5">Computer Engineering Student</p>
-      <p id="text4">I enjoy <span class="input"></span></p>
-      <button
-        class="resume-button"
-        onclick="window.open('Grant_CV/Grant Achuzia_Resume.pdf', '_blank')"
-      >
-        <span>Resume</span>
-      </button>
-    </div>
-    
-    <div class="empty-space">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GAchuzia's Web</title>
+</head>
+<body>
+  <div class="navbar">
+    <ul>
+      <li>Grant Achuzia</li>
+      <li><a href="index.html">HOME</a></li>
+      <li><a href="projects.html">PROJECTS</a></li>
+    </ul>
+  </div>
 
-    </div>
-    <footer>
-      <div class="footer-container">
-        <nav>
-          <ul>
-            <li><a href="https://github.com/GAchuzia">GitHub</a></li>
-            <li><a href="mailto:achuziaduby@gmail.com">Email</a></li>
-            <li><a href="https://www.linkedin.com/in/grant-achuzia-8259251b8/">LinkedIn</a></li>
-          </ul>
-        </nav>
-      </div>
-    </footer>
-    
-    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
-    <!-- Setup and start animation! -->
-    <script>
-      var typed = new Typed(".input", {
-        strings: ["reading", "coding", "learning."],
-        typeSpeed: 100,
-        backSpeed: 100,
-        loop: false,
-      });
-    </script>
-  </body>
+  <div class="content-box">
+    <p class="greeting">Hey there!</p> <p>Welcome to my little website</p>
+    <p><b>ABOUT ME</b><br>
+      I'm a third year Computer Systems Engineering student at <a href="">Carleton University</a> <br>
+      Interested in web development, embedded programming, and UI/UX design <br>
+      Love to read books and exercise in my spare time <br>
+    </p>
+    <p>
+      Think I sound cool? Then checkout my <b><a href="">RESUME</a></b><br>
+      Want to know what I'm up to? Take a look at the <b><a href="">PROJECTS</a></b> page
+    </p>
+  </div>
+
+  <div clas="footer">
+    <ul>
+      <li><a href="https://github.com/GAchuzia">GitHub</a></li>
+      <li>·</li>
+      <li><a href="mailto:achuziaduby@gmail.com">Email</a></li>
+      <li>·</li>
+      <li><a href="https://www.linkedin.com/in/grant-achuzia-8259251b8/">LinkedIn</a></li>
+      <li>·</li>
+      <li>Monospace</li>
+      <li>·</li>
+      <li>Dark</li>
+    </ul>
+  </div>
+  
+</body>
 </html>
