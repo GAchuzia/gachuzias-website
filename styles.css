@@ -97,9 +97,14 @@ body {
 }
 
 .subtitle{
-    font-size: 18px;
+    font-size: 16px;
+    margin-bottom:0.5em;
 }
 
+.project-desc{
+    
+    font-size: 20px;
+}
 .footer {
   margin-top: -1em;
 }
