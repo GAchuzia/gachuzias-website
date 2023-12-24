@@ -8,7 +8,7 @@
     --background-color-dark: #272829;
     --text-color-dark: #fff6e0;
     --link-color-dark: #fff6e0;
-    --link-hover-color-dark: #61677a;
+    --link-hover-color-dark: #b3383e;
     --border-color-dark: #fff6e0;
   }
   
@@ -130,7 +130,7 @@ body {
   }
 
 .footer ul li#darkModeSwitch:hover {
-    color: var(--link-hover-color-dark)
+    color: #61677A;
 }
 
 /* Media Queries */
