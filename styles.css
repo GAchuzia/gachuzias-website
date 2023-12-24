@@ -16,53 +16,58 @@ body {
   flex-direction: row;
   justify-content: center;
   margin-bottom: -1em;
-  margin-left:20%;
+  margin-left: 20%;
   margin-right: 20%;
 }
 
-.navbar a{
-    font-size: 26px;
-    text-decoration: none;
-    color:#fff6e0;
-    
+.navbar ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.navbar ul li {
+  margin-right: 2em;
+}
+
+.navbar-left {
+  margin-right: 26em;
+}
+
+.navbar a {
+  font-size: 26px;
+  text-decoration: none;
+  color: #fff6e0;
 }
 
 .navbar a:hover {
   color: #61677a;
 }
 
-.navbar-left {
-  margin-right: 53em;
-}
-
-.navbar-right a {
-  margin-right: 0.5em;
-}
-
 .content-box {
   margin-top: 20px;
   margin-bottom: 20px;
   font-size: 22px;
-  margin-left:20%;
+  margin-left: 20%;
   margin-right: 20%;
   border: 2px solid #fff6e0;
   border-radius: 5px;
-  padding:2%;
-
+  padding: 2%;
 }
 
-.content-box a{
-    color:#fff6e0;
-    text-decoration: none;
+.content-box a {
+  color: #fff6e0;
+  text-decoration: none;
 }
 
-.content-box a:hover{
-    color:#61677a;
-    text-decoration: line;
+.content-box a:hover {
+  color: #61677a;
+  text-decoration: line;
 }
 
 .footer {
-    margin-top: -1em;
+  margin-top: -1em;
 }
 
 .footer ul {
@@ -74,7 +79,7 @@ body {
 }
 
 .footer ul li {
-  margin-right: 5px;
+  margin-right: 10px;
 }
 
 .footer ul li a {
@@ -84,4 +89,66 @@ body {
 
 .footer ul li a:hover {
   color: #61677a;
+}
+
+/* Media Queries */
+
+/* For desktops and laptops */
+@media only screen and (min-width: 1200px) {
+  .navbar ul li {
+    margin-right: 2em;
+  }
+
+  .navbar-left {
+    margin-right: 26em;
+  }
+
+  .content-box {
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+
+  .footer ul li {
+    margin-right: 10px;
+  }
+}
+
+/* For tablets */
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+  .navbar ul li {
+    margin-right: 1.5em;
+  }
+
+  .navbar-left {
+    margin-right: 15em;
+  }
+
+  .content-box {
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+
+  .footer ul li {
+    margin-right: 5px;
+  }
+}
+
+/* For phones */
+@media only screen and (max-width: 767px) {
+  .navbar ul li {
+    margin-right: 0.5em;
+  }
+
+  .navbar-left {
+    margin-right: 5em;
+  }
+
+  .content-box {
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+
+  .footer ul li {
+    margin-right: 5px;
+  }
 }
