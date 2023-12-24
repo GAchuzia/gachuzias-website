@@ -141,7 +141,7 @@ body {
 /* Media Queries */
 
 /* For desktops and laptops */
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1000px) {
   .navbar ul li {
     margin-right: 2em;
   }
@@ -161,7 +161,7 @@ body {
 }
 
 /* For tablets */
-@media only screen and (min-width: 768px) and (max-width: 1199px) {
+@media only screen and (min-width: 748px) and (max-width: 1699px) {
   .navbar ul li {
     margin-right: 1.5em;
   }
@@ -181,13 +181,14 @@ body {
 }
 
 /* For phones */
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 1080px) {
   .navbar ul li {
     margin-right: 0.5em;
+  
   }
 
   .navbar-left {
-    margin-right: 5em;
+    margin-right: 2em;
   }
 
   .content-box {
