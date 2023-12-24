@@ -66,6 +66,10 @@ body {
   text-decoration: line;
 }
 
+.subtitle{
+    font-size: 18px;
+}
+
 .footer {
   margin-top: -1em;
 }
