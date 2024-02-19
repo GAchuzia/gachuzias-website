@@ -76,8 +76,8 @@ body {
 }
 
 .content-box {
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 1%;
+  margin-bottom: 1%;
   font-size: 22px;
   margin-left: 20%;
   margin-right: 20%;
@@ -98,12 +98,13 @@ body {
 
 .subtitle{
     font-size: 16px;
-    margin-bottom:0.5em;
+    margin-top: -0.1em;
+    margin-bottom:.5em;
 }
 
-.project-desc{
-    
+.project-desc{ 
     font-size: 20px;
+    margin-bottom: .5em;
 }
 .footer {
   margin-top: -1em;
