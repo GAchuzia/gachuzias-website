@@ -1,203 +1,143 @@
-:root {
-    --background-color-light: #ffffff;
-    --text-color-light: #000000;
-    --link-color-light: #000000;
-    --link-hover-color-light: #5591eb;
-    --border-color-light: #000000;
-  
-    --background-color-dark: #272829;
-    --text-color-dark: #fff6e0;
-    --link-color-dark: #fff6e0;
-    --link-hover-color-dark: #b3383e;
-    --border-color-dark: #fff6e0;
-  }
-  
-  [data-theme="light"] {
-    --background-color: var(--background-color-light);
-    --text-color: var(--text-color-light);
-    --link-color: var(--link-color-light);
-    --link-hover-color: var(--link-hover-color-light);
-    --border-color: var(--border-color-light);
-  }
-  
-  [data-theme="dark"] {
-    --background-color: var(--background-color-dark);
-    --text-color: var(--text-color-dark);
-    --link-color: var(--link-color-dark);
-    --link-hover-color: var(--link-hover-color-dark);
-    --border-color: var(--border-color-dark);
-  }
 
 * {
   margin: 0;
-  background-color: var(--background-color);
+  background-color: #222831;
   font-family: Courier;
 }
 
+.webpage-title{
+  margin-left: 20%;
+  margin-right: 20%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.title{
+  font-size: 26px;
+  color: #76ABAE;
+}
+
 body {
-  color: var(--text-color);
-  margin-top: 10%;
+  color: #EEEEEE;
+  margin-top: 3%;
   display: flex;
   flex-direction: column;
 }
 
-.navbar {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  margin-bottom: -0.5em;
-  margin-left: 20%;
-  margin-right: 20%;
-}
-
-.navbar ul {
-  list-style: none;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
-
-.navbar ul li {
-  margin-right: 2em;
-}
-
-.navbar-left {
-  margin-right: 26em;
-}
-
-.navbar a {
-  font-size: 26px;
-  text-decoration: none;
-  color: var(--text-color);
-}
-
-.navbar a:hover {
-  color: var(--link-hover-color);
-}
-
 .content-box {
-  margin-top: 1%;
+  margin-top: 0.1%;
   margin-bottom: 1%;
   font-size: 22px;
   margin-left: 20%;
   margin-right: 20%;
-  border: 2px solid var(--text-color);
+  border: 2px solid #31363F;
   border-radius: 5px;
   padding: 2%;
+  background-color: #31363F;
+}
+
+.content-box p{
+  background-color: #31363F;
+}
+
+.content-box p b{
+  background-color: #31363F;
+}
+
+.content-box p a em{
+  background-color: #31363F;
 }
 
 .content-box a {
-  color: var(--text-color);
+  color: #35c1c9;
   text-decoration: none;
+  
 }
 
 .content-box a:hover {
-  color: var(--link-hover-color);
+  color: #F6B17A;
   text-decoration: line;
 }
 
-.subtitle{
-    font-size: 16px;
-    margin-top: -0.1em;
-    margin-bottom:.5em;
+.projects{
+  background-color: #31363F;
+  display:grid;
+  grid-template-columns:1fr 1fr 1fr;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+  grid-gap: 0.5em;
+  margin-top: 0.5em;
 }
 
-.project-desc{ 
-    font-size: 20px;
-    margin-bottom: .5em;
+.project-box{
+  border: 2px solid #35c1c9;
+  background-color: #31363F;
+  border-radius: 5px;
+  padding:0.5em;
+}
+
+.project-title{
+  font-size: 20px;
+  
+}
+
+.project-box p{
+  font-size: 15px;
+  color:#EEEEEE;
 }
 .footer {
-  margin-top: -0.5em;
+  margin-top: 1em;
+  margin-left: 20%;
+  margin-right: 20%;
 }
 
-.footer ul {
+.footer ul  {
   list-style: none;
   display: flex;
   flex-direction: row;
   justify-content: center;
-  font-size: 20px;
+  margin-top: -0.5em; 
 }
 
-.footer ul li {
-  margin-right: 10px;
+.footer ul li{
+  padding-right: 2.5em;
 }
 
 .footer ul li a {
   text-decoration: none;
-  color: var(--text-color);
+  color: #76ABAE;
+  font-size: 26px;
 }
 
 .footer ul li a:hover {
-  color: var(--link-hover-color);
+  color: #F6B17A;
 }
 
-.footer ul li#darkModeSwitch {
-    cursor: pointer;
-  }
-
-.footer ul li#darkModeSwitch:hover {
-    color: var(--link-hover-color);
-}
 
 /* Media Queries */
 
 /* For desktops and laptops */
 @media only screen and (min-width: 1000px) {
-  .navbar ul li {
-    margin-right: 2em;
-  }
-
-  .navbar-left {
-    margin-right: 26em;
-  }
-
   .content-box {
     margin-left: 20%;
     margin-right: 20%;
-  }
-
-  .footer ul li {
-    margin-right: 10px;
   }
 }
 
 /* For tablets */
 @media only screen and (min-width: 748px) and (max-width: 1699px) {
-  .navbar ul li {
-    margin-right: 1.5em;
-  }
-
-  .navbar-left {
-    margin-right: 15em;
-  }
-
   .content-box {
     margin-left: 15%;
     margin-right: 15%;
-  }
-
-  .footer ul li {
-    margin-right: 5px;
   }
 }
 
 /* For phones */
 @media only screen and (max-width: 1080px) {
-  .navbar ul li {
-    margin-right: 0.5em;
-  
-  }
-
-  .navbar-left {
-    margin-right: 2em;
-  }
-
   .content-box {
     margin-left: 15%;
     margin-right: 15%;
-  }
-
-  .footer ul li {
-    margin-right: 5px;
   }
 }
